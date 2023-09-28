@@ -1,0 +1,229 @@
+*{
+    font-family: bona nova;
+}
+nav{
+    background-color: #fcf0c8;
+}
+nav .collapse ul a{
+    font-weight: bold;
+    color: black;
+}
+nav .collapse ul a:hover{
+    font-weight: bold;
+    color: #911f27;
+}
+
+nav .navbutton{
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 20px;
+}
+nav .navbutton:hover{
+    border: 1px solid #911f27;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    width: 90px;
+}
+nav .navbutton a{
+    text-decoration: none;
+    color: #911f27;
+    font-weight: bold;
+}
+.p1{
+    margin-top: 10%;
+}
+.p1 p{
+    font-size: 18px;
+}
+.p1 h1{
+    font-weight: bold;
+    font-family: cursive;
+}
+.carousel-inner{
+    border-radius: 10px;
+}
+/* .p2{
+    padding: 20px;
+    width: 400px;
+} */
+.p3{
+    background-color: #fcf0c8;
+    margin-top: 5%;
+}
+.p3 .me{
+    background-color: #911f27; 
+    color: white; 
+    padding: 15px; 
+    width: 300px; 
+    margin-top: 8%; 
+    border-radius: 0px 10px 10px 0px;
+}
+.flex img{
+    width: 100%;
+}
+.flex2 img{
+    width: 100%;
+}
+.flexing{
+    margin-top: 19%;
+}
+.milk{
+    background-color: #f5f1f2;
+    margin-bottom: 5%;
+    padding-bottom: 10%;
+}
+.milk h3{
+    text-align:center;
+    margin-top: 10px;
+    padding: 30px;
+    color: #911f27;
+    font-weight: bold;
+    font-family: cursive;
+}
+.milk p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.iphone{
+    background-color: #fcf0c8;
+    padding: 20px;
+}
+.iphone .mark{
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+}
+.mark .carousel-item{
+    border: 1px solid #911f27;
+    padding: 10px;
+    width: 300px;
+    align-items: center;
+    margin-left: 500px;
+
+
+}
+.iphone h4{
+    font-weight: bold;
+}
+.iphone .level1{
+    border: 1px solid black ;
+    padding: 10px;
+    background-color:transparent;
+    box-shadow: 2px 2px 20px 2px;
+
+}
+.iphone .level2{
+    border: 1px solid black  ;
+    padding: 10px;
+    background-color: transparent;
+    box-shadow: 2px 2px 20px 2px;
+    
+}
+.iphone .level3{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: transparent;
+    box-shadow: 2px 2px 20px 2px;
+    
+}
+.felix{
+    padding: 10px;
+}
+.felix .felix1{
+    margin-top: 9%;
+}
+.felix .felix2{
+    margin-top: 4%;
+}
+footer{
+    padding:80px 0px;
+    color:black;
+}
+footer h3, footer h4{
+    color: red;
+}
+footer ul{
+    list-style-type: none;
+    padding:5px;
+}
+footer li{
+    padding:5px;
+}
+footer li a{
+    color: black;
+    text-decoration: none;
+    margin-left: 5px;
+}
+footer .fa-angle-right{
+    color: red;
+}
+/* animations */
+@media(max-width: 855px){
+    .p1{
+        margin-top: 20%;
+    }
+    .p2{
+        display: none;
+    }
+    .course-btn{
+        margin-bottom: 5%;
+    }
+    .p3 .me{
+        width: 100%;
+    }
+    .p3 .flex{
+        margin-top: 5%;
+    }
+    .p3 .flex img{
+        width: 100%;
+        
+    }
+    .p3 .flex2 img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .p1{
+        margin-top: 15%;
+        align-items: center;
+    }
+    .p1{
+        margin-bottom: 20%;
+    }
+    .p1 p{
+        font-size: 15px;
+    }
+    
+}
+
+.slideanim{
+    visibility:visible ;
+}
+.slide{
+    animation-name: slide;
+    animation-duration: 3s;
+    visibility: visible;
+}
+@keyframes slide{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(-70%)
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}
+@-webkit-keyframes slide{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(-70%)
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}
